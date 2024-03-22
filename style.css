@@ -1,0 +1,378 @@
+
+/* Estilo básico del botón de contorno */
+.btn-outline {
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid #60AACA; /* Color del borde del botón */
+    color: #60AACA; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambiar el cursor a un puntero */
+    transition: all 0.3s ease; /* Transición suave para cambios de estado */
+    border-radius: 0px;
+}
+/* Estilo del botón en hover */
+.btn-outline:hover {
+    background-color: #60AACA; /* Color de fondo al pasar el cursor */
+    color: #ffffff; /* Color del texto al pasar el cursor */
+    border-color: #60AACA; /* Opcional: Cambiar el color del borde en hover */
+}
+/* Estilo del botón al estar enfocado o activo (opcional) */
+.btn-outline:focus,
+.btn-outline:active {
+    outline: none; /* Eliminar el outline predeterminado */
+    border-color: #60AACA; /* Cambiar el color del borde */
+    box-shadow: 0 0 0 1px #60AACA; /* Agregar un sombreado para resaltar */
+}
+  
+.btn-base {
+    color: #ffffff; /* Color del texto */
+    background-color: #60AACA; /* Color de fondo */
+    border-color: #477f97; /* Color del borde */
+    border-radius: 40px; /* Redondez del borde */
+}
+/* Cambia el color del texto cuando el botón se desvanece */
+.btn-base:hover {
+    color: #ffffff; /* Color del texto al pasar el mouse */
+    background-color: #366072; /* Color de fondo al pasar el mouse */
+    border-color: #254350; /* Color del borde al pasar el mouse */
+}
+
+.text-base{
+    color: #60AACA;
+}
+.text-red{
+    color: #e90016c2;
+}
+.text-lime{
+    color: #8AC23E;
+}
+.text-green{
+    color: #44a22fcc;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-bold{
+    font-weight: bold;
+}
+body {
+    font-family: 'Parfair Display', sans-serif; /* Cambia la fuente del cuerpo del documento a Parfair Display */
+    color: #60AACA;
+}
+.cntr-green{
+    background-color: #f1fbff; /* Color de fondo */
+}
+li{
+    font-size: large;
+    margin-left: 10px;
+}
+p{
+    font-size: large;
+    margin: 0px;
+}
+.img {
+    width: 450px; /* Define el tamaño del cuadrado */
+    height: 450px;
+    object-fit: cover; /* Ajusta la imagen dentro del cuadrado */
+}
+.img-big{
+    width: 500px; /* Define el tamaño del cuadrado */
+    height: 500px;
+    object-fit: cover; /* Ajusta la imagen dentro del cuadrado */
+}
+.img-map {
+    width: 600px; /* Define el tamaño del cuadrado */
+    height: 600px;
+}
+.copyright{
+    color: #f1fbff;
+    background-color: #18475c;
+}
+main{
+    padding: 10px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}  
+/* Asegúrate de que cada tipo de elemento se ajuste a su contenido */
+h1, h2, h3, h4, h5 {
+    margin-bottom: 5px; /* Elimina márgenes predeterminados */
+    width: auto!important; /* Asegura que el ancho se ajuste al contenido */
+    font-family: 'Montserrat', sans-serif; /* Cambia la fuente de los encabezados a Montserrat */
+}
+a, p {
+    margin: 0px; /* Elimina márgenes predeterminados */
+    width: auto!important; /* Asegura que el ancho se ajuste al contenido */
+    font-family: 'Montserrat', sans-serif; /* Cambia la fuente de los encabezados a Montserrat */
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+}
+.fondo-1 {            
+    background-image: url('imagenes/parque-serena-fondo.png');
+    background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 650px!important;
+}
+.fondo-2 {            
+    background-image: url('imagenes/parque-pudahuel-fondo.png');
+    background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 650px!important;
+}
+.fondo-3 {            
+    background-image: url('imagenes/parque-maipu-fondo.png');
+    background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 650px!important;
+}
+.bk-cremaciones{
+    background-image: url('imagenes/bk-cremaciones.png');
+    background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bk-text-cremaciones {
+    background-color: #f0f8ffd6;
+    border: 1px solid #60AACA;
+    border-radius: 19%;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    display: flex;
+    flex-direction: column;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    /* Para que el contenido de .col se ajuste a su contenido, puedes usar: */
+    margin: 5px; /* Espaciado opcional entre columnas */
+}
+/* Estilo del menú lateral (250px de ancho) */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #f1fbff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  padding-top: 60px; /* Place content 60px from the top */
+  border-right: 2px solid #386f86; /* Add a white right border */
+}
+/* Estilo de los enlaces del menú */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+/* Cambia el color de los enlaces al pasar el mouse */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/* Botón de cierre */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+table, th, td {
+    border: 1px solid #60AACA; /* Cambia por el color que prefieras */
+    padding: 5px;
+    font-size: x-large;
+    color: #898a8d; /* Color del texto */
+}
+.c-table {
+    border: 0px; /* Cambia por el color que prefieras */
+    font-size: x-large;
+    color: #898a8d; /* Color del texto */    
+}
+.c-table td {
+    border: 2px solid #f1fbff; /* Cambia por el color que prefieras */
+    padding: 5px;
+    font-size: x-large;
+    color: #898a8d; /* Color del texto */
+
+}
+.c-table th{
+    border: 0px; /* Cambia por el color que prefieras */
+    padding: 10px;
+    font-size: x-large;
+    color: #8AC23E;
+}
+.striped tr:nth-child(odd) {
+    background-color: #F4F4F4; /* Color de fondo para filas impares */
+}
+  
+.striped tr:nth-child(even) {
+    background-color: #dfdfdf; /* Color de fondo para filas pares */
+}
+.w-80{
+    width: 80%!important;
+}
+.w-40{
+    width: 40%!important;
+}
+.w-60{
+    width: 60%!important;
+}
+.faq-answer {
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 8px; /* Ajusta según sea necesario */
+    margin-top: 5px;
+    visibility: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease, visibility 0.5s;
+}
+.faq-question {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
+}
+.card{
+    min-height: 290px;
+    min-width: 400px;
+    max-width: 540px;
+}
+.card h5{
+    font-weight: bold;
+}
+.card-base:hover {
+    transform: translateY(-10px); /* Levantar el div 10px */
+    box-shadow: 0px 10px 15px #60aacac2; /* Aumentar la sombra */
+    transition: 0.3s;
+}
+.card-base:not(:hover) {
+    transform: translateY(0px); /* Regresar a la posición original */
+    transition: 0.3s;
+}
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    image-orientation: center;
+}
+
+.blurry-transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Color semi-transparente */
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out; /* Transición suave */
+    pointer-events: none; /* Evita que la capa interrumpa eventos en la página */
+}
+.blurry-transition.active {
+    opacity: 1;
+}
+main{
+    z-index: 10000;
+}
+@media (max-width: 900px) {
+    .moviles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: auto!important;
+    }
+    .fondo-1 {            
+        background-image: url('imagenes/parque-serena-fondo.png');
+        background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px!important;
+        width: auto!important;
+    }
+    .fondo-2 {            
+        background-image: url('imagenes/parque-pudahuel-fondo.png');
+        background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px!important;
+        width: auto!important;
+    }
+    .fondo-3 {            
+        background-image: url('imagenes/parque-maipu-fondo.png');
+        background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px!important;
+        width: auto!important;
+    }
+    .img-big{
+        width: 100%; /* Define el tamaño del cuadrado */
+        height: 100%;
+        object-fit: cover; /* Ajusta la imagen dentro del cuadrado */
+    }
+    .img {
+        width: 100%; /* Define el tamaño del cuadrado */
+        height: 100%;
+        object-fit: cover; /* Ajusta la imagen dentro del cuadrado */
+    }
+    .img-map {
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .t-center{
+        text-align: center;
+    }
+    .container-fluid .row .col{
+        display: flex;
+    }
+    .container-fluid{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12  .col{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /* Estilo del menú lateral (250px de ancho) */
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #f1fbff; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        padding-top: 60px; /* Place content 60px from the top */
+        border-right: 2px solid #477216; /* Add a white right border */
+    }
+    .sp-row-rvs{
+        flex-direction: row-reverse!important;
+    }
+    .c-table th, td {
+        font-size: xx-small!important  ;
+    }
+    .w-80, .w-40, .w-60, .w-75, .w-50, .w-100, .w-25{
+        width: auto!important;
+    }
+}
