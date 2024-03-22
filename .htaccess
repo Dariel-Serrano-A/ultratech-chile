@@ -1,0 +1,13 @@
+php_value display_errors On
+php_value date.timezone America/Santiago
+
+RewriteEngine On
+
+# Redirigir el directorio raíz a inicio.php
+RewriteCond %{HTTP_HOST} ^ultratech.infinityfreeapp.com$ [NC]
+RewriteRule ^$ /inicio.php [L,R=301]
+
+# Redirigir HTTP a HTTPS para cualquier otro subdirectorio o archivo
+RewriteCond %{HTTP_HOST} ^ultratech.infinityfreeapp.com$ [NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
