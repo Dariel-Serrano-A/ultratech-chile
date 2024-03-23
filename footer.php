@@ -3,8 +3,8 @@
         <div class="col-xl-7 justify-content-center align-items-start moviles">
             <div class="row justify-content-start">      
                 <div class="col w-auto">
-                    <a  onclick="redirectWithBlur(event)" href="http://localhost/ultratech/inicio.php" class="d-flex flex-row"><img class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base" > Ultra<span class="text-bold">Tech</span> </h1></a>
-                    <a  onclick="redirectWithBlur(event)" href="http://localhost/ultratech/inicio.php"><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
+                    <a  onclick="redirectWithBlur(event)" href="http://ultratech.infinityfreeapp.com/inicio.php" class="d-flex flex-row"><img class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base" > Ultra<span class="text-bold">Tech</span> </h1></a>
+                    <a  onclick="redirectWithBlur(event)" href="http://ultratech.infinityfreeapp.com/inicio.php"><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
                     <a class="d-flex flex-row align-items-center"><img class="me-1" src="imagenes/telefono-icon.png" alt="Imagen temporal" width="30" height="30"><h5 class="text-base"> (+56) 9 5307 7891 </h5></a>            
                     <a class="d-flex flex-row align-items-center"><img class="me-1" src="imagenes/mail-icon.png" alt="Imagen temporal" width="30" height="30"><h5 class="text-base"> ultratech.chile @ gmail.com </h5></a>            
                 </div>      

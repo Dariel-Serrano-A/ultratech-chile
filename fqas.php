@@ -13,7 +13,7 @@
     </nav>
 
     <main>
-        preguntas frecuentes                                
+        preguntas frecuentes
     </main>
 
     <footer>

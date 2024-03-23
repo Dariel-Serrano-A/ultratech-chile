@@ -18,7 +18,7 @@
                <div class="col-xl-4 mb-3 px-2">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src="https://scontent.fccp3-1.fna.fbcdn.net/v/t1.18169-9/969591_206786412802929_1493183489_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF-dbc7gPrkRzag-aSyfp4sNt0poRUBe-Y23SmhFQF75ntEgoVJA0uRqp57_VmEOxhoxP6DxX-kGWg_4niySReA&_nc_ohc=ihLiY_w7x7cAX8F1act&_nc_ht=scontent.fccp3-1.fna&oh=00_AfBCMnaqNRzliHhYmUE8Vo5P-DqXTU1NP6HM2qF3eSNXAw&oe=66242F0C" class="img-fluid rounded-start" alt="tmp image">
+                            <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -32,7 +32,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                        <img src="https://scontent.fccp3-1.fna.fbcdn.net/v/t1.18169-9/969591_206786412802929_1493183489_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF-dbc7gPrkRzag-aSyfp4sNt0poRUBe-Y23SmhFQF75ntEgoVJA0uRqp57_VmEOxhoxP6DxX-kGWg_4niySReA&_nc_ohc=ihLiY_w7x7cAX8F1act&_nc_ht=scontent.fccp3-1.fna&oh=00_AfBCMnaqNRzliHhYmUE8Vo5P-DqXTU1NP6HM2qF3eSNXAw&oe=66242F0C" class="img-fluid rounded-start" alt="tmp image">
+                        <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                         <div class="card-body">
@@ -45,7 +45,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                        <img src="https://scontent.fccp3-1.fna.fbcdn.net/v/t1.18169-9/969591_206786412802929_1493183489_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF-dbc7gPrkRzag-aSyfp4sNt0poRUBe-Y23SmhFQF75ntEgoVJA0uRqp57_VmEOxhoxP6DxX-kGWg_4niySReA&_nc_ohc=ihLiY_w7x7cAX8F1act&_nc_ht=scontent.fccp3-1.fna&oh=00_AfBCMnaqNRzliHhYmUE8Vo5P-DqXTU1NP6HM2qF3eSNXAw&oe=66242F0C" class="img-fluid rounded-start" alt="tmp image">
+                        <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                         <div class="card-body">
@@ -59,7 +59,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                        <img src="https://scontent.fccp3-1.fna.fbcdn.net/v/t1.18169-9/969591_206786412802929_1493183489_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF-dbc7gPrkRzag-aSyfp4sNt0poRUBe-Y23SmhFQF75ntEgoVJA0uRqp57_VmEOxhoxP6DxX-kGWg_4niySReA&_nc_ohc=ihLiY_w7x7cAX8F1act&_nc_ht=scontent.fccp3-1.fna&oh=00_AfBCMnaqNRzliHhYmUE8Vo5P-DqXTU1NP6HM2qF3eSNXAw&oe=66242F0C" class="img-fluid rounded-start" alt="tmp image">
+                        <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                         <div class="card-body">
@@ -72,7 +72,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src="https://scontent.fccp3-1.fna.fbcdn.net/v/t1.18169-9/969591_206786412802929_1493183489_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF-dbc7gPrkRzag-aSyfp4sNt0poRUBe-Y23SmhFQF75ntEgoVJA0uRqp57_VmEOxhoxP6DxX-kGWg_4niySReA&_nc_ohc=ihLiY_w7x7cAX8F1act&_nc_ht=scontent.fccp3-1.fna&oh=00_AfBCMnaqNRzliHhYmUE8Vo5P-DqXTU1NP6HM2qF3eSNXAw&oe=66242F0C" class="img-fluid rounded-start" alt="tmp image">
+                            <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -85,7 +85,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src="https://scontent.fccp3-1.fna.fbcdn.net/v/t1.18169-9/969591_206786412802929_1493183489_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF-dbc7gPrkRzag-aSyfp4sNt0poRUBe-Y23SmhFQF75ntEgoVJA0uRqp57_VmEOxhoxP6DxX-kGWg_4niySReA&_nc_ohc=ihLiY_w7x7cAX8F1act&_nc_ht=scontent.fccp3-1.fna&oh=00_AfBCMnaqNRzliHhYmUE8Vo5P-DqXTU1NP6HM2qF3eSNXAw&oe=66242F0C" class="img-fluid rounded-start" alt="tmp image">
+                            <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -98,7 +98,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src="https://scontent.fccp3-1.fna.fbcdn.net/v/t1.18169-9/969591_206786412802929_1493183489_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF-dbc7gPrkRzag-aSyfp4sNt0poRUBe-Y23SmhFQF75ntEgoVJA0uRqp57_VmEOxhoxP6DxX-kGWg_4niySReA&_nc_ohc=ihLiY_w7x7cAX8F1act&_nc_ht=scontent.fccp3-1.fna&oh=00_AfBCMnaqNRzliHhYmUE8Vo5P-DqXTU1NP6HM2qF3eSNXAw&oe=66242F0C" class="img-fluid rounded-start" alt="tmp image">
+                            <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
