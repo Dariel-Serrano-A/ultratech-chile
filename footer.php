@@ -3,8 +3,8 @@
         <div class="col-xl-7 justify-content-center align-items-start moviles">
             <div class="row justify-content-start">      
                 <div class="col w-auto">
-                    <a  onclick="redirectWithBlur(event)" href="http://ultratech.infinityfreeapp.com/inicio.php" class="d-flex flex-row"><img class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base" > Ultra<span class="text-bold">Tech</span> </h1></a>
-                    <a  onclick="redirectWithBlur(event)" href="http://ultratech.infinityfreeapp.com/inicio.php"><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
+                    <a  onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="d-flex flex-row"><img class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base" > Ultra<span class="text-bold">Tech</span> </h1></a>
+                    <a  onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?>><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
                     <a class="d-flex flex-row align-items-center"><img class="me-1" src="imagenes/telefono-icon.png" alt="Imagen temporal" width="30" height="30"><h5 class="text-base"> (+56) 9 5307 7891 </h5></a>            
                     <a class="d-flex flex-row align-items-center"><img class="me-1" src="imagenes/mail-icon.png" alt="Imagen temporal" width="30" height="30"><h5 class="text-base"> ultratech.chile @ gmail.com </h5></a>            
                 </div>      
@@ -13,10 +13,10 @@
         <div class="col-xl-5 justify-content-center align-items-end moviles">
             <div class="row" >
                 <div class="col align-items-center justify-content-center w-auto">
-                    <a  onclick="redirectWithBlur(event)" href="mailto:ultratech.chile@gmail.com?subject=Contacto%20desde%20sitio%20web&body=Escriba%20sus%20dudas,%20consultas%20o%20comentarios%20aqui...">
+                    <a href=<?php echo $l_email;?>>
                         <button class="btn btn-base btn-lg"><img src="imagenes/email-icon.png" alt="Imagen temporal" width="30" height="30"> Envianos un Email </button> 
                     </a>                                
-                    <a  onclick="redirectWithBlur(event)" href="https://wa.me/56953077891">
+                    <a href=<?php echo $l_wsp;?>>
                         <button class="btn btn-base btn-lg"><img src="imagenes/wsp-icon.png" alt="Imagen temporal" width="30" height="30"> Contactanos </button> 
                     </a>  
                 </div>

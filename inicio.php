@@ -18,7 +18,7 @@
                <div class="col-xl-4 mb-3 px-2">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
+                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -32,7 +32,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                        <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
+                        <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                         <div class="card-body">
@@ -45,7 +45,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                        <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
+                        <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                         <div class="card-body">
@@ -59,7 +59,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                        <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
+                        <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                         <div class="card-body">
@@ -72,7 +72,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
+                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -85,7 +85,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
+                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -98,7 +98,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src="https://archive.org/download/placeholder-image/placeholder-image.jpg" class="img-fluid rounded-start" alt="tmp image">
+                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
