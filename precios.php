@@ -13,7 +13,13 @@
     </nav>
 
     <main>
-        precios                                
+    <div class="container-fluid px-5 cntr-green">
+            <div class="row g-1">             
+                <div class="col-xl-4 mb-3 px-2">
+                    (proximamente) precios                                                    
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
