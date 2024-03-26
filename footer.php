@@ -87,7 +87,7 @@
         // Redirigir después de la transición
         setTimeout(() => {
             window.location.href = linkHref;
-        }, 100); // 0.1 segundos de transición borrosa
+        }, 50); // x.x segundos de transición borrosa
     }
    
 </script>
