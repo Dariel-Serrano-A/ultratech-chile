@@ -95,8 +95,11 @@ div{
     margin: 0px;
     padding: 0px;
 }
+.portada p, h3, h5, h1{
+    text-align: center;
+}
 .container-fluid {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 15px;
 }  
 /* Asegúrate de que cada tipo de elemento se ajuste a su contenido */
@@ -111,41 +114,16 @@ a, p {
     font-family: 'Montserrat', sans-serif; /* Cambia la fuente de los encabezados a Montserrat */
 }
 a{
-    margin: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
     text-decoration: none;
 }
-.fondo-1 {            
+.fondo-base {            
     background-image: url('imagenes/parque-serena-fondo.png');
     background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
     background-position: center;
     background-repeat: no-repeat;
-    width: 650px!important;
-}
-.fondo-2 {            
-    background-image: url('imagenes/parque-pudahuel-fondo.png');
-    background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 650px!important;
-}
-.fondo-3 {            
-    background-image: url('imagenes/parque-maipu-fondo.png');
-    background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 650px!important;
-}
-.bk-cremaciones{
-    background-image: url('imagenes/bk-cremaciones.png');
-    background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.bk-text-cremaciones {
-    background-color: #f0f8ffd6;
-    border: 1px solid #60AACA;
-    border-radius: 19%;
-    padding: 20px;
+    object-fit: cover;
 }
 
 .row{
