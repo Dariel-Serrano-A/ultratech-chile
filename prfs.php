@@ -16,7 +16,7 @@
         <div class="container-fluid px-5 cntr-green">
             <div class="row g-1">             
                 <div class="col-xl-4 mb-3 px-2">
-                    (proximamente) preguntas frecuentes                    
+                    <h4>(proximamente) preguntas frecuentes</h4>
                 </div>
             </div>
         </div>
