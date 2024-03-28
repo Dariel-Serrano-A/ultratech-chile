@@ -95,16 +95,26 @@ div{
     margin: 0px;
     padding: 0px;
 }
-.portada p, h3, h5, h1{
+.portada p, .portada h3, .portada h5, .portada h1{
     text-align: center;
+}
+.who li, .who h5{
+    font-size: x-large;
+}
+footer h5{
+    margin-left: 5px;
+}
+.btns a{
+    padding-top: 2px;
+    padding-bottom: 2px;    
 }
 .container-fluid {
     padding-top: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }  
 /* Asegúrate de que cada tipo de elemento se ajuste a su contenido */
 h1, h2, h3, h4, h5 {
-    margin-bottom: 5px; /* Elimina márgenes predeterminados */
+    margin-bottom: 0px; /* Elimina márgenes predeterminados */
     width: auto!important; /* Asegura que el ancho se ajuste al contenido */
     font-family: 'Montserrat', sans-serif; /* Cambia la fuente de los encabezados a Montserrat */
 }
@@ -134,7 +144,6 @@ a{
     display: flex;
     flex-direction: column;
     /* Para que el contenido de .col se ajuste a su contenido, puedes usar: */
-    margin: 5px; /* Espaciado opcional entre columnas */
 }
 .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
     display: flex;
@@ -159,7 +168,7 @@ a{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #60AACA;
   display: block;
   transition: 0.3s;
 }
@@ -176,7 +185,7 @@ a{
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  right: 4px;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -211,14 +220,41 @@ table, th, td {
 .striped tr:nth-child(even) {
     background-color: #dfdfdf; /* Color de fondo para filas pares */
 }
-.w-80{
-    width: 80%!important;
+.w-10{
+    width: 10%!important;
+}
+.w-20{
+    width: 20%!important;
+}
+.w-25{
+    width: 25%!important;
+}
+.w-30{
+    width: 30%!important;
 }
 .w-40{
     width: 40%!important;
 }
+.w-50{
+    width: 50%!important;
+}
 .w-60{
     width: 60%!important;
+}
+.w-70{
+    width: 70%!important;
+}
+.w-75{
+    width: 75%!important;
+}
+.w-80{
+    width: 80%!important;
+}
+.w-90{
+    width: 90%!important;
+}
+.w-100{
+    width: 100%!important;
 }
 .faq-answer {
     overflow: hidden;
@@ -262,7 +298,6 @@ table, th, td {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    image-orientation: center;
 }
 
 .blurry-transition {
@@ -363,7 +398,7 @@ main{
     .c-table th, td {
         font-size: xx-small!important  ;
     }
-    .w-80, .w-40, .w-60, .w-75, .w-50, .w-100, .w-25{
+    .w-10, .w-20, .w-25, .w-30, .w-40, .w-50, .w-60, .w-70, .w-75, .w-80, .w-90, .w-100{
         width: auto!important;
     }
 }

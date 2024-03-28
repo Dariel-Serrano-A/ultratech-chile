@@ -12,7 +12,6 @@
     </nav>
     <main>
         <!-- Presentacion -->
-
         <div class="container-fluid px-5 cntr-green">
             <div class="row g-1">  
                 <div class="col-xl-12 portada">
@@ -21,11 +20,11 @@
                         <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="mt-1" ><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
                     </div>
                     <h3> "Soluciones Digitales y Tecnológicas a tu Medida" </h3>
-                    <br>
-                    <br>    
+                    <br>                
                     <h1 class="pb-2" > ¿Quienes Somos? </h1> 
-                    <div class="col w-auto flex-row justify-content-center align-items-center">
-                        <h5 class="w-50" > Somos una Pyme especializada en soluciones digitales integrales. Ofrecemos desarrollo web personalizado, soporte técnico eficiente, hosting web confiable, implementación de software licenciado y estrategias de marketing digital. En Ultratech Chile, nos comprometemos a impulsar tu negocio en el mundo digital, proporcionando soluciones adaptadas a tus necesidades y objetivos. </h5>
+                    <div class="col w-auto justify-content-center align-items-center">
+                        <h5 class="w-50 pb-2" > Somos una Pyme especializada en soluciones digitales integrales. Ofrecemos desarrollo web personalizado, soporte técnico eficiente, hosting web confiable, implementación de software licenciado y estrategias de marketing digital. </h5>
+                        <h5 class="w-50" > En Ultratech Chile, nos comprometemos a impulsar tu negocio en el mundo digital, proporcionando soluciones adaptadas a tus necesidades y objetivos. </h5>
                     </div>
                 </div>
             </div>
@@ -40,7 +39,7 @@
                 <div class="col-xl-4 mb-3 px-2">                   
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
+                            <img src="imagenes/img-desarrollo-web.png" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -58,7 +57,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
+                            <img src="imagenes/img-soporte-tecnico.png" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -76,7 +75,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
+                            <img src="imagenes/img-web-server.png" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -94,7 +93,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
+                            <img src="imagenes/img-software-licenciado.png" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -112,7 +111,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                                <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
+                                <img src="imagenes/img-marketing-digital.png" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                             <div class="col-xl-8">
                                 <div class="card-body">
@@ -130,7 +129,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
+                            <img src="imagenes/img-impresoras.png" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -148,7 +147,7 @@
                 <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
-                            <img src=<?php echo $tmp_img;?> class="img-fluid rounded-start" alt="tmp image">
+                            <img src="imagenes/img-presencial-remoto.png" class="img-fluid rounded-start" alt="tmp image">
                         </div>
                         <div class="col-xl-8">
                             <div class="card-body">
@@ -162,9 +161,24 @@
                             </div>
                         </div>
                     </div>
-                </div>   
+                </div>                
             </div>
         </div>                    
+        <br>
+        <!-- Por que UltraTech? -->
+        <div class="container-fluid px-5 cntr-green">
+            <div class="row g-1 justify-content-center">  
+                <div class="col-xl-12 w-40 align-items-start who">
+                        <h1 class="pb-4" >¿Por qué elegir Ultratech Chile?</h1>                                                
+                        <a class="d-flex flex-row align-items-center pb-4"><img class="me-1" src="imagenes/certf-icon.png" alt="Imagen temporal" width="30" height="30"><h5 class="text-base"> Compromiso, calidad y atención personalizada </h5></a>
+                        <h5>Breve lista de puntos destacados:</h5>
+                        <li>Experiencia y profesionalismo.</li>
+                        <li>Soluciones a medida.</li>
+                        <li>Soporte técnico especializado.</li>
+                        <li>Asesoramiento personalizado. </li>                            
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <?php include 'footer.php' ;?>
