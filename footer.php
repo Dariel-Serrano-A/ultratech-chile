@@ -31,6 +31,8 @@
 <!-- Aquí puedes incluir información de pie de página -->
 <p class="d-flex justify-content-center copyright m-0 p-0" >&copy; 2024 Ultra<span class="text-bold">Tech</span> . Todos los derechos reservados.</p>
 
+<button onclick="topFunction()" id="rollUp" title="Ir arriba">⇪</button>  
+
 <script>
     document.querySelectorAll('.smooth-scroll-link').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -92,6 +94,23 @@
         setTimeout(() => {
             window.location.href = linkHref;
         }, 50); // x.x segundos de transición borrosa
+    }
+
+    // Cuando el usuario se desplaza hacia abajo 20px desde el principio de la página, muestra el botón
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+        document.getElementById("rollUp").style.display = "block";
+    } else {
+        document.getElementById("rollUp").style.display = "none";
+    }
+    }
+
+    // Cuando el usuario hace clic en el botón, se desplaza hacia el principio de la página
+    function topFunction() {
+    document.body.scrollTop = 0; // Para Safari
+    document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
     }
    
 </script>
