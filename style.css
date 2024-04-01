@@ -124,8 +124,6 @@ a, p {
     font-family: 'Montserrat', sans-serif; /* Cambia la fuente de los encabezados a Montserrat */
 }
 a{
-    margin-left: 7px;
-    margin-right: 7px;
     text-decoration: none;
 }
 .fondo-base {            

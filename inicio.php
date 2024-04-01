@@ -16,7 +16,7 @@
             <div class="row g-1">  
                 <div class="col-xl-12 portada">
                     <div class="col w-auto flex-row justify-content-center align-items-center">
-                        <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="d-flex flex-row" ><img  class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base" > Ultra<span class="text-bold">Tech</span> </h1></a>
+                        <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="d-flex flex-row" ><img  class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base me-1" > Ultra<span class="text-bold">Tech</span> </h1></a>
                         <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="mt-1" ><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
                     </div>
                     <h3> "Soluciones Digitales y Tecnológicas a tu Medida" </h3>
@@ -168,8 +168,10 @@
         <!-- Por que UltraTech? -->
         <div class="container-fluid px-5 cntr-green">
             <div class="row g-1 justify-content-center">  
+                <div class="col-xl-12 align-items-center who">
+                    <h1 class="pb-4" >¿Por qué elegir Ultratech Chile?</h1>                                                
+                </div>
                 <div class="col-xl-12 w-40 align-items-start who">
-                        <h1 class="pb-4" >¿Por qué elegir Ultratech Chile?</h1>                                                
                         <a class="d-flex flex-row align-items-center pb-4"><img class="me-1" src="imagenes/certf-icon.png" alt="Imagen temporal" width="30" height="30"><h5 class="text-base"> Compromiso, calidad y atención personalizada </h5></a>
                         <h5>Breve lista de puntos destacados:</h5>
                         <li>Experiencia y profesionalismo.</li>
