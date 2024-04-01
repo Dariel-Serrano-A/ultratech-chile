@@ -14,13 +14,13 @@
         <div class="col-xl-5 justify-content-center align-items-end moviles">
             <div class="row" >
                 <div class="col align-items-center justify-content-center w-auto btns">
-                    <a href=<?php echo $l_email;?>>
+                    <a href=<?php echo $l_email;?> target="_blank" rel="noopener noreferrer">
                         <button class="btn btn-base btn-lg"><img src="imagenes/email-icon.png" alt="Imagen temporal" width="30" height="30"> Envianos un Email </button> 
                     </a>                                
-                    <a href=<?php echo $l_wsp;?>>
+                    <a href=<?php echo $l_wsp;?> target="_blank" rel="noopener noreferrer">
                         <button class="btn btn-base btn-lg"><img src="imagenes/wsp-icon.png" alt="Imagen temporal" width="30" height="30"> Contactanos </button> 
                     </a>  
-                    <a href=<?php echo $l_ig;?>>
+                    <a href=<?php echo $l_ig;?> target="_blank" rel="noopener noreferrer">
                         <button class="btn btn-base btn-lg"><img src="imagenes/ig-icon.png" alt="Imagen temporal" width="30" height="30"> Instagram </button> 
                     </a>
                 </div>
