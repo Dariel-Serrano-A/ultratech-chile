@@ -5,9 +5,9 @@ RewriteEngine On
 
 # Redirigir el directorio raíz a inicio.php
 RewriteCond %{HTTP_HOST} ^ultratech.infinityfreeapp.com$ [NC]
-RewriteRule ^$ /inicio.php [L,R=301]
+RewriteRule ^$ /inicio.php [L]
 
 # Redirigir HTTP a HTTPS para cualquier otro subdirectorio o archivo
 RewriteCond %{HTTP_HOST} ^ultratech.infinityfreeapp.com$ [NC]
 RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L]
