@@ -82,6 +82,22 @@
         }
     }
 
+    function toggleAllAnswers() {
+        var answers = document.querySelectorAll('.faq-answer');
+        answers.forEach(function(answer) {
+            // Comprobamos el estado actual y aplicamos el cambio apropiado.
+            if (answer.style.maxHeight === "0px" || answer.style.maxHeight === "") {
+                answer.style.visibility = "visible";
+                answer.style.maxHeight = "1000px"; // Ajusta esto según el contenido más alto que tengas.
+                answer.style.padding = "8px"; // Restaura el padding.
+            } else {
+                answer.style.visibility = "hidden";
+                answer.style.maxHeight = "0";
+                answer.style.padding = "0 8px"; // Elimina el padding verticalmente.
+            }
+        });
+    }
+
     function redirectWithBlur(event) {
         event.preventDefault(); // Prevenir la acción predeterminada del enlace
         const blurryTransition = document.getElementById('blurryTransition');
