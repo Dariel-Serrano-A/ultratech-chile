@@ -339,12 +339,12 @@ main{
 }
 @media (max-width: 900px) {
     .moviles {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+        flex-direction: column!important;
         width: auto!important;
-    }
+    }    
     .fondo-1 {            
         background-image: url('imagenes/parque-serena-fondo.png');
         background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
@@ -419,5 +419,13 @@ main{
     }
     .w-10, .w-20, .w-25, .w-30, .w-40, .w-50, .w-60, .w-70, .w-75, .w-80, .w-90, .w-100{
         width: auto!important;
+    }
+    .card{
+        min-height: auto;
+        min-width: auto;
+    }
+    .m-px{
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }

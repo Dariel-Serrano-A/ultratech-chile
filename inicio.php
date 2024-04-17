@@ -12,7 +12,7 @@
     </nav>
     <main>
         <!-- Presentacion -->
-        <div class="container-fluid px-5 cntr-green">
+        <div class="container-fluid px-5 cntr-green m-px">
             <div class="row g-1">  
                 <div class="col-xl-12 portada">
                     <div class="col w-auto flex-row justify-content-center align-items-center">
@@ -31,8 +31,8 @@
         </div>
         <br>
             <!-- Servicios -->           
-        <div class="container-fluid px-5 cntr-green">
-            <div class="row g-1">  
+        <div class="container-fluid px-5 cntr-green m-px">
+            <div class="row g-1 moviles">  
                 <div class="col-xl-12">
                     <h1 class="text-center pb-4" >Servicios Informáticos</h1> 
                 </div>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
+                <div class="col-xl-4 mb-3 px-2">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
                             <img src="imagenes/img-soporte-tecnico.png" class="img-fluid rounded-start" alt="tmp image">
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
+                <div class="col-xl-4 mb-3 px-2">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
                             <img src="imagenes/img-web-server.png" class="img-fluid rounded-start" alt="tmp image">
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
+                <div class="col-xl-4 mb-3 px-2">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
                             <img src="imagenes/img-software-licenciado.png" class="img-fluid rounded-start" alt="tmp image">
@@ -108,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
+                <div class="col-xl-4 mb-3 px-2">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
                                 <img src="imagenes/img-marketing-digital.png" class="img-fluid rounded-start" alt="tmp image">
@@ -126,7 +126,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
+                <div class="col-xl-4 mb-3 px-2">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
                             <img src="imagenes/img-impresoras.png" class="img-fluid rounded-start" alt="tmp image">
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                 </div> 
-                <div class="col-xl-4 mb-3 px-2" style="max-width: 540px;">
+                <div class="col-xl-4 mb-3 px-2">
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
                             <img src="imagenes/img-presencial-remoto.png" class="img-fluid rounded-start" alt="tmp image">
@@ -166,7 +166,7 @@
         </div>                    
         <br>
         <!-- Por que UltraTech? -->
-        <div class="container-fluid px-5 cntr-green">
+        <div class="container-fluid px-5 cntr-green m-px">
             <div class="row g-1 justify-content-center">  
                 <div class="col-xl-12 align-items-center who">
                     <h1 class="pb-4" >¿Por qué elegir Ultratech Chile?</h1>                                                
