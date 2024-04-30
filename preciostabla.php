@@ -28,16 +28,18 @@ try {
         
         // Si el array de celdas no está vacío, imprime la fila
         if (!empty($cells)) {
-            // Imprime la fila
+            // Determina si la celda en la segunda columna contiene el texto "Precio"
+            $secondColumnValue = isset($cells[1]) ? $cells[1] : null;
+            $isPriceRow = $secondColumnValue === "Precio";
+
+            // Imprime la fila con las celdas marcadas como <th> si es una fila de "Precio"
             echo "<tr>";
             foreach ($cells as $key => $value) {
-                // Determina si la celda está en la segunda columna y contiene un número
-                if ($key == 1 && $value == "Precio") {
-                    echo "<th>" . $value . "</th>";
-                } else if ($key == 1 && is_numeric($value)) {
-                    echo "<td class=\"centrar-celda\">" . $value . "</td>";
+                $cellTag = $isPriceRow ? "th" : "td";
+                if ($key == 1 && is_numeric($value)) {
+                    echo "<$cellTag class=\"centrar-celda\">" . $value . "</$cellTag>";
                 } else {
-                    echo "<td>" . $value . "</td>";
+                    echo "<$cellTag>" . $value . "</$cellTag>";
                 }
             }
             echo "</tr>";
