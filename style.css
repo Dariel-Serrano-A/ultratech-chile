@@ -159,7 +159,7 @@ a{
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   padding-top: 60px; /* Place content 60px from the top */
-  border-right: 2px solid #60AACA; /* Add a white right border */
+  border-right: 2px solid #60AACA; /* Add a 60AACA right border */
 }
 /* Estilo de los enlaces del menú */
 .sidenav a {
@@ -408,12 +408,15 @@ main{
         overflow-x: hidden; /* Disable horizontal scroll */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
         padding-top: 60px; /* Place content 60px from the top */
-        border-right: 2px solid #477216; /* Add a white right border */
+        border-right: 2px solid #60AACA; /* Add a white right border */
     }
     .sp-row-rvs{
         flex-direction: row-reverse!important;
     }
-    .c-table th, td {
+    th{
+        font-size: x-small!important  ;
+    }
+    td {
         font-size: xx-small!important  ;
     }
     .w-10, .w-20, .w-25, .w-30, .w-40, .w-50, .w-60, .w-70, .w-75, .w-80, .w-90, .w-100{
