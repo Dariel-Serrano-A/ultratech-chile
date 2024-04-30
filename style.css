@@ -212,7 +212,10 @@ table, th, td {
     border: 1px solid #60AACA; /* Cambia por el color que prefieras */
     padding: 5px;
     font-size: x-large;
-    color: #898a8d; /* Color del texto */
+    color: #60AACA; /* Color del texto */
+}
+.centrar-celda {
+    text-align: center !important;
 }
 .c-table {
     border: 0px; /* Cambia por el color que prefieras */
@@ -234,8 +237,7 @@ table, th, td {
 }
 .striped tr:nth-child(odd) {
     background-color: #F4F4F4; /* Color de fondo para filas impares */
-}
-  
+}  
 .striped tr:nth-child(even) {
     background-color: #dfdfdf; /* Color de fondo para filas pares */
 }
@@ -382,9 +384,6 @@ main{
     .img-map {
         max-width: 400px;
         max-height: 400px;
-    }
-    .t-center{
-        text-align: center;
     }
     .container-fluid .row .col{
         display: flex;
