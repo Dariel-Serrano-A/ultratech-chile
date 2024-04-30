@@ -1,7 +1,7 @@
 <!-- Meta Tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UltraTech - Concepcion - Lomas Coloradas - Desarrollo Web - Servicio Tecnico - Soporte Informatico - 2024 </title>
+<title> UltraTech - Formateo - Concepcion - Lomas Coloradas - Desarrollo Web - Servicio Tecnico - Soporte Informatico - 2024 </title>
 <meta name="description" content="Servicios profesionales de desarrollo web, soporte técnico, hosting, software licenciado y marketing digital. Soluciones personalizadas para impulsar tu presencia en línea.">
 
 <!-- Open Graph Meta Tags -->
