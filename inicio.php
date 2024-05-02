@@ -17,7 +17,7 @@
                 <div class="col-xl-12 portada">
                     <div class="col w-auto flex-row justify-content-center align-items-center">
                         <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="d-flex flex-row" ><img  class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base me-1" > Ultra<span class="text-bold">Tech</span> Chile</h1></a>
-                        <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="mt-1 ms-2" ><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
+                        <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="mt-2 ms-2" ><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
                     </div>
                     <h3> "Soluciones Digitales y Tecnológicas a tu Medida" </h3>
                     <br>                
@@ -36,7 +36,7 @@
                 <div class="col-xl-12">
                     <h1 class="text-center pb-4" >Servicios Informáticos</h1> 
                 </div>
-                <div class="col-xl-4 mb-3 px-2">                   
+                <div class="col-xl-4 mb-3 px-2 moviles">                   
                     <div class="row card card-base g-0">
                         <div class="col-xl-4">
                             <img src="imagenes/img-desarrollo-web.png" class="img-fluid rounded-start" alt="tmp image">
