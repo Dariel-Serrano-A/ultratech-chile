@@ -13,7 +13,7 @@
     </nav>
 
     <main>
-    <div class="container-fluid px-5 cntr-base m-my">
+    <div class="container-fluid px-5 cntr-base m-py">
             <div class="row">             
                 <div class="col-xl-12 mb-3 px-2">
                     <?php include 'preciostabla.php' ;?>                                                   

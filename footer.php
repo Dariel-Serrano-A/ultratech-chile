@@ -83,7 +83,7 @@
     }
 
     function toggleAllAnswers() {
-        var answers = document.querySelectorAll('.faq-answer');
+        var answers = document.querySelectorAll('.prfs-answer');
         answers.forEach(function(answer) {
             // Comprobamos el estado actual y aplicamos el cambio apropiado.
             if (answer.style.maxHeight === "0px" || answer.style.maxHeight === "") {

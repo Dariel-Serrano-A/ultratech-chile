@@ -166,8 +166,8 @@
         </div>                    
         <br>
         <!-- Por que UltraTech? -->
-        <div class="container-fluid px-5 cntr-base m-py m-my">
-            <div class="row g-1 justify-content-center">  
+        <div class="container-fluid px-5 cntr-base m-py">
+            <div class="row g-1 justify-content-center m-my">  
                 <div class="col-xl-12 align-items-center who">
                     <h1 class="pb-4" >¿Por qué elegir Ultratech Chile?</h1>                                                
                 </div>
