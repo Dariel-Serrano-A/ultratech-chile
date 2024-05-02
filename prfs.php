@@ -13,8 +13,8 @@
     </nav>
 
     <main>
-        <div class="container-fluid px-5 cntr-green">
-            <button class="me-3 btn btn-outline btn-lg text-italic" onclick="toggleAllAnswers()">Abrir todas las respuestas</button>
+        <div class="container-fluid px-5 cntr-base">
+            <button class="me-3 btn btn-outline btn-lg text-italic m-my" onclick="toggleAllAnswers()">Abrir todas las respuestas</button>
             <div class="row">             
                 <div class="col-xl-12 mb-3 px-2">
                     <div class="faq-question" onclick="toggleAnswer('r1')">

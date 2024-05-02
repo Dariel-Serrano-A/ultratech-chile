@@ -59,7 +59,7 @@ body {
     font-family: 'Parfair Display', sans-serif; /* Cambia la fuente del cuerpo del documento a Parfair Display */
     color: #60AACA;
 }
-.cntr-green{
+.cntr-base{
     background-color: #f1fbff; /* Color de fondo */
 }
 li{
@@ -426,8 +426,12 @@ main{
         min-height: auto;
         min-width: auto;
     }
-    .m-px{
+    .m-py{
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    .m-my{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
