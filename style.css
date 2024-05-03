@@ -25,14 +25,14 @@
 }
   
 .btn-base {
-    color: #3c3a3d; /* Color del texto */
+    color: #ffffff; /* Color del texto */
     background-color: #60AACA; /* Color de fondo */
     border-color: #477f97; /* Color del borde */
     border-radius: 40px; /* Redondez del borde */
 }
 /* Cambia el color del texto cuando el botón se desvanece */
 .btn-base:hover {
-    color: #3c3a3d; /* Color del texto al pasar el mouse */
+    color: #ffffff; /* Color del texto al pasar el mouse */
     background-color: #366072; /* Color de fondo al pasar el mouse */
     border-color: #254350; /* Color del borde al pasar el mouse */
 }
@@ -58,11 +58,11 @@
 body {
     font-family: 'Parfair Display', sans-serif; /* Cambia la fuente del cuerpo del documento a Parfair Display */
     color: #60AACA;
-    background-color: #3c3a3d;
+    background-color: #ffffff;
 }
 .cntr-base{
-    background-color: #3c3a3d; /* Color de fondo */
-    border: 2px solid #60AACA;
+    background-color: #f1fbff; /* Color de fondo */
+    /* border: 2px solid #60AACA; */
 }
 li{
     font-size: large;
@@ -157,7 +157,7 @@ a{
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #3c3a3d; /* Black*/
+  background-color: #f1fbff; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   padding-top: 60px; /* Place content 60px from the top */
@@ -296,8 +296,8 @@ table, th, td {
     min-height: 360px;
     min-width: 400px;
     max-width: 540px;
-    background-color: #3c3a3d;
-    border: 2px solid #60AACA;
+    background-color: #ffffff;
+    /* border: 2px solid #60AACA; */
 }
 .card-body{
     display: flex;
@@ -409,7 +409,7 @@ main{
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color: #3c3a3d; /* Black*/
+        background-color: #ffffff; /* Black*/
         overflow-x: hidden; /* Disable horizontal scroll */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
         padding-top: 60px; /* Place content 60px from the top */
