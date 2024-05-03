@@ -25,14 +25,14 @@
 }
   
 .btn-base {
-    color: #ffffff; /* Color del texto */
+    color: #3c3a3d; /* Color del texto */
     background-color: #60AACA; /* Color de fondo */
     border-color: #477f97; /* Color del borde */
     border-radius: 40px; /* Redondez del borde */
 }
 /* Cambia el color del texto cuando el botón se desvanece */
 .btn-base:hover {
-    color: #ffffff; /* Color del texto al pasar el mouse */
+    color: #3c3a3d; /* Color del texto al pasar el mouse */
     background-color: #366072; /* Color de fondo al pasar el mouse */
     border-color: #254350; /* Color del borde al pasar el mouse */
 }
@@ -58,9 +58,11 @@
 body {
     font-family: 'Parfair Display', sans-serif; /* Cambia la fuente del cuerpo del documento a Parfair Display */
     color: #60AACA;
+    background-color: #3c3a3d;
 }
 .cntr-base{
-    background-color: #f1fbff; /* Color de fondo */
+    background-color: #3c3a3d; /* Color de fondo */
+    border: 2px solid #60AACA;
 }
 li{
     font-size: large;
@@ -155,7 +157,7 @@ a{
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #f1fbff; /* Black*/
+  background-color: #3c3a3d; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   padding-top: 60px; /* Place content 60px from the top */
@@ -294,10 +296,13 @@ table, th, td {
     min-height: 360px;
     min-width: 400px;
     max-width: 540px;
+    background-color: #3c3a3d;
+    border: 2px solid #60AACA;
 }
 .card-body{
     display: flex;
     flex-direction: column;
+    
 }
 .card h5{
     font-weight: bold;
@@ -404,11 +409,11 @@ main{
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color: #f1fbff; /* Black*/
+        background-color: #3c3a3d; /* Black*/
         overflow-x: hidden; /* Disable horizontal scroll */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
         padding-top: 60px; /* Place content 60px from the top */
-        border-right: 2px solid #60AACA; /* Add a white right border */
+        border-right: 2px solid #60AACA; /* Add a #60AACA right border */
     }
     th{
         font-size: small!important;

@@ -10,27 +10,8 @@
     <nav>
         <?php include 'nav.php' ;?>
     </nav>
-    <main>
-        <!-- Presentacion -->
-        <div class="container-fluid px-5 cntr-base m-py">
-            <div class="row g-1">  
-                <div class="col-xl-12 portada">
-                    <div class="col w-auto flex-row justify-content-center align-items-center">
-                        <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="d-flex flex-row" ><img  class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base me-1" > Ultra<span class="text-bold">Tech</span> Chile</h1></a>
-                        <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="mt-2 ms-2" ><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
-                    </div>
-                    <h3> "Soluciones Digitales y Tecnológicas a tu Medida" </h3>
-                    <br>                
-                    <h1 class="pb-2" > ¿Quienes Somos? </h1> 
-                    <div class="col w-auto justify-content-center align-items-center">
-                        <h5 class="w-50 pb-2" > Somos una Pyme especializada en soluciones digitales integrales. Ofrecemos desarrollo web personalizado, soporte técnico eficiente, hosting web confiable, implementación de software licenciado y estrategias de marketing digital. </h5>
-                        <h5 class="w-50" > En Ultratech Chile, nos comprometemos a impulsar tu negocio en el mundo digital, proporcionando soluciones adaptadas a tus necesidades y objetivos. </h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-            <!-- Servicios -->           
+    <main>        
+        <!-- Servicios -->           
         <div class="container-fluid px-5 cntr-base m-py">
             <div class="row g-1 moviles">  
                 <div class="col-xl-12">
@@ -164,6 +145,25 @@
                 </div>                
             </div>
         </div>                    
+        <br>
+        <!-- Presentacion -->
+        <div class="container-fluid px-5 cntr-base m-py">
+            <div class="row g-1">  
+                <div class="col-xl-12 portada">
+                    <div class="col w-auto flex-row justify-content-center align-items-center">
+                        <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="d-flex flex-row" ><img  class="me-1" src="imagenes/base-icon.png" alt="Imagen temporal" width="45" height="45"><h1 class="text-base me-1" > Ultra<span class="text-bold">Tech</span> Chile</h1></a>
+                        <a onclick="redirectWithBlur(event)" href=<?php echo $l_inicio;?> class="mt-2 ms-2" ><h3 class="text-base" > El poder de la tecnología a tu alcance. </h3></a>
+                    </div>
+                    <h3> "Soluciones Digitales y Tecnológicas a tu Medida" </h3>
+                    <br>                
+                    <h1 class="pb-2" > ¿Quienes Somos? </h1> 
+                    <div class="col w-auto justify-content-center align-items-center">
+                        <h5 class="w-50 pb-2" > Somos una Pyme especializada en soluciones digitales integrales. Ofrecemos desarrollo web personalizado, soporte técnico eficiente, hosting web confiable, implementación de software licenciado y estrategias de marketing digital. </h5>
+                        <h5 class="w-50" > En Ultratech Chile, nos comprometemos a impulsar tu negocio en el mundo digital, proporcionando soluciones adaptadas a tus necesidades y objetivos. </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
         <br>
         <!-- Por que UltraTech? -->
         <div class="container-fluid px-5 cntr-base m-py">
