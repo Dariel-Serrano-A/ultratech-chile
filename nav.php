@@ -25,6 +25,9 @@
                 <a onclick="redirectWithBlur(event)" href=<?php echo $l_prfs;?>> 
                     <button type="button" class="btn btn-outline btn-lg"> Preguntas Frecuentes </button>    
                 </a>
+                <a onclick="redirectWithBlur(event)" href=<?php echo $l_comments;?>> 
+                    <button type="button" class="btn btn-outline btn-lg"> Deje sus comentarios </button>    
+                </a>
                 <a href="#contacto" onclick="closeNav()" class="smooth-scroll-link" > 
                     <button type="button" class="btn btn-outline btn-lg"> Contacto </button>    
                 </a>

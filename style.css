@@ -55,6 +55,9 @@
 .text-bold{
     font-weight: bold;
 }
+.text-justofy{
+    text-align: justify;
+}
 body {
     font-family: 'Parfair Display', sans-serif; /* Cambia la fuente del cuerpo del documento a Parfair Display */
     color: #60AACA;
@@ -99,6 +102,9 @@ div{
 }
 .portada p, .portada h3, .portada h5, .portada h1{
     text-align: center;
+}
+.portada h5{
+    text-align: justify;
 }
 .who li, .who h5{
     font-size: x-large;
@@ -218,30 +224,6 @@ table, th, td {
 }
 .centrar-celda {
     text-align: center !important;
-}
-.c-table {
-    border: 0px; /* Cambia por el color que prefieras */
-    font-size: x-large;
-    color: #898a8d; /* Color del texto */    
-}
-.c-table td {
-    border: 2px solid #f1fbff; /* Cambia por el color que prefieras */
-    padding: 5px;
-    font-size: x-large;
-    color: #898a8d; /* Color del texto */
-
-}
-.c-table th{
-    border: 0px; /* Cambia por el color que prefieras */
-    padding: 10px;
-    font-size: x-large;
-    color: #8AC23E;
-}
-.striped tr:nth-child(odd) {
-    background-color: #F4F4F4; /* Color de fondo para filas impares */
-}  
-.striped tr:nth-child(even) {
-    background-color: #dfdfdf; /* Color de fondo para filas pares */
 }
 .w-10{
     width: 10%!important;
